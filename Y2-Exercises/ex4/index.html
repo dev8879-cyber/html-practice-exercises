@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vertical-scroll{
+            width: 320px;
+            height: 400px;
+            overflow-y: scroll;
+            border: 2px solid #333;
+            padding: 20px;
+            color: white;
+
+            background-image: url('https://picsum.photos/id/38/400/600');
+            background-attachment: fixed;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-scroll">
+        <h2>Scroll inside me</h2>
+        <p>The background image remains perfectly still while this text scrolls.</p>
+        <p style="margin-top: 200px;">Keep scrolling down...</p>
+        <p style="margin-top: 200px;">The background is locked to the viewport!</p>
+    </div>
+</body>
+</html> 

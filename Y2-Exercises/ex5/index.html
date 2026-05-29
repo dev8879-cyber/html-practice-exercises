@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shorthand-test {
+        height: 150px;
+        padding: 20px;
+        color: white;
+
+        /* Full order: background: color image repeat attachment position/size;
+           We are SKIPPING: image, attachment, and position/size.
+           The browser safely applies just the color and the no-repeat rule.
+        */
+        background: #ff5733 no-repeat; 
+    }
+    </style>
+</head>
+<body>
+    <div class="shorthand-test">
+    <p>This box tests the CSS shorthand property.</p>
+</div>
+</body>
+</html>
